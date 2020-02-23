@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "TeamPS": {
+      "commandName": "Project",
+      "sqlDebugging": false,
+      "nativeDebugging": false
+    }
+  }
+}
