@@ -6,6 +6,14 @@
     <SignAssembly>true</SignAssembly>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <ApplicationIcon>Icons8-Windows-8-Systems-Linux.ico</ApplicationIcon>
+    <StartupObject />
+    <Authors>SecMaker</Authors>
+    <Company>p0wersurge</Company>
+    <Product>Password Cracker</Product>
+    <Copyright>2020 PS</Copyright>
+    <DelaySign>false</DelaySign>
+    <AssemblyOriginatorKeyFile>SecMaker.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
 </Project>
