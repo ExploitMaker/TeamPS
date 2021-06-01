@@ -4,14 +4,14 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 
-namespace TeamPS
+namespace Cracker
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("This is for educational purposes only");
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine("Welcome to Gr0undZero - RSA Team MD5 Cracker!");
             string Hash = "";
             Console.Write("Enter Your MD5 Hash :");
             Hash = Console.ReadLine().ToUpper();
@@ -20,7 +20,7 @@ namespace TeamPS
             int count = 0;
             bool closeloop = true;
 
-            StreamReader file = new StreamReader(@"ps.txt");
+            StreamReader file = new StreamReader(@"wordlist.txt");
 
             while (closeloop == true && (pass = file.ReadLine()) != null)
             {

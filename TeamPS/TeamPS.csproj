@@ -2,18 +2,27 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <SignAssembly>true</SignAssembly>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
-    <ApplicationIcon>Icons8-Windows-8-Systems-Linux.ico</ApplicationIcon>
-    <StartupObject />
-    <Authors>SecMaker</Authors>
-    <Company>p0wersurge</Company>
-    <Product>Password Cracker</Product>
-    <Copyright>2020 PS</Copyright>
+    <ApplicationIcon>gz1010.ico</ApplicationIcon>
+    <StartupObject></StartupObject>
+    <Authors>Ussen</Authors>
+    <Company>Gr0undZero</Company>
+    <Product>MD5 Password Cracker</Product>
+    <Copyright>2021 Ussen</Copyright>
     <DelaySign>false</DelaySign>
-    <AssemblyOriginatorKeyFile>SecMaker.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>Ussen.pfx</AssemblyOriginatorKeyFile>
+    <Version>2.1.1</Version>
+    <PackageId>Cracker</PackageId>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <AssemblyName>MD5 Cracker</AssemblyName>
+    <RootNamespace>Cracker</RootNamespace>
+    <EnableNETAnalyzers>false</EnableNETAnalyzers>
+    <PackageIcon></PackageIcon>
+    <PackageIconUrl />
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
 </Project>

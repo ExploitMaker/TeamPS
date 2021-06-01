@@ -4,6 +4,9 @@
       "commandName": "Project",
       "sqlDebugging": false,
       "nativeDebugging": false
+    },
+    "Cracker": {
+      "commandName": "Executable"
     }
   }
 }
